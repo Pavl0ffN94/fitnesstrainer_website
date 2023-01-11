@@ -4,7 +4,6 @@
 
 .performance {
   max-width: 1200px;
-  max-height: 700px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
@@ -38,9 +37,6 @@
   color: white;
 }
 
-/* .div_text
- * display: flex
- * flex-direction: row */
 .whoAmI_container1 {
   position: relative;
 }
@@ -108,7 +104,7 @@
 }
 
 .marafon_text {
-  color: white;
+  color: #FA8072;
   font-size: 25px;
 }
 
@@ -119,5 +115,16 @@
 }
 
 .marafon_card1 {
-  border: 1px solid #FA8072;
+  border: 1px solid white;
+  background-color: #212529;
+}
+
+.card-text {
+  color: white;
+  font-size: 23px;
+}
+
+.marafon_card3 {
+  border: 1px solid white;
+  background-color: #212529;
 }/*# sourceMappingURL=Style.css.map */

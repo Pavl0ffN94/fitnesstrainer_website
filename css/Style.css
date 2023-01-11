@@ -38,25 +38,24 @@
   color: white;
 }
 
-.div_text {
-  display: flex;
-  flex-direction: row;
-}
-
-.container1 {
+/* .div_text
+ * display: flex
+ * flex-direction: row */
+.whoAmI_container1 {
   position: relative;
 }
 
-.container2 {
+.whoAmI_container2 {
   position: relative;
 }
 
-.container3 {
+.whoAmI_container3 {
   position: relative;
 }
 
-.text_sec2 {
+.whoAmI_text {
   font-size: 19px;
+  color: white;
 }
 
 .icon1 {
@@ -86,7 +85,6 @@
 .resalt {
   position: relative;
   max-width: 1200px;
-  max-height: 500px;
   margin: 0 auto;
 }
 
@@ -106,4 +104,20 @@
 .marafon {
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 30px;
+}
+
+.marafon_text {
+  color: white;
+  font-size: 25px;
+}
+
+.marafon_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.marafon_card1 {
+  border: 1px solid #FA8072;
 }/*# sourceMappingURL=Style.css.map */

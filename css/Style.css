@@ -1,0 +1,109 @@
+.color_body {
+  background-color: #212529;
+}
+
+.performance {
+  max-width: 1200px;
+  max-height: 700px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.logo-navbar {
+  width: 75px;
+}
+
+.performance_text1 {
+  color: #FA8072;
+  font-size: 30px;
+}
+
+.performance_text2 {
+  color: white;
+  float: right;
+  font-size: 25px;
+}
+
+.whoAmI {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.whoAmI_text {
+  color: #FA8072;
+  text-align: center;
+}
+
+.text_sec2 {
+  color: white;
+}
+
+.div_text {
+  display: flex;
+  flex-direction: row;
+}
+
+.container1 {
+  position: relative;
+}
+
+.container2 {
+  position: relative;
+}
+
+.container3 {
+  position: relative;
+}
+
+.text_sec2 {
+  font-size: 19px;
+}
+
+.icon1 {
+  position: absolute;
+  left: -70px;
+  top: 55px;
+  width: 54px;
+  height: 56px;
+}
+
+.icon2 {
+  position: absolute;
+  left: -70px;
+  top: 14px;
+  width: 54px;
+  height: 56px;
+}
+
+.icon3 {
+  position: absolute;
+  left: -68px;
+  top: 34px;
+  width: 54px;
+  height: 56px;
+}
+
+.resalt {
+  position: relative;
+  max-width: 1200px;
+  max-height: 500px;
+  margin: 0 auto;
+}
+
+.resal_text {
+  color: #FA8072;
+  float: right;
+  font-size: 25px;
+}
+
+.resal_text2 {
+  margin-top: 30px;
+  color: white;
+  float: left;
+  font-size: 17px;
+}
+
+.marafon {
+  max-width: 1200px;
+  margin: 0 auto;
+}/*# sourceMappingURL=Style.css.map */

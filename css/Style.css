@@ -1,5 +1,5 @@
 .color_body {
-  background-color: #212529;
+  background-color: #5d7994;
 }
 
 .performance {
@@ -134,8 +134,66 @@
   filter: blur(1px);
 }
 
+.contacts {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.contacts_content {
+  display: flex;
+  flex-direction: row;
+}
+
+.right_contacts {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.block {
+  display: block;
+}
+
+.icons-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts_text1 {
+  color: #FA8072;
+  font-size: 25px;
+}
+
+.contacts_text2 {
+  color: white;
+  font-size: 17px;
+}
+
+.icon {
+  display: inline-flex;
+}
+
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin-right: 17px;
+}
+.icons__item:last-child {
+  margin-right: 0;
+}
+.icons__item i {
+  font-size: 28px;
+}
+
 @media (max-width: 767px) {
   .marafon_img {
     display: none;
+  }
+  .card-text {
+    line-height: 25px;
   }
 }/*# sourceMappingURL=Style.css.map */

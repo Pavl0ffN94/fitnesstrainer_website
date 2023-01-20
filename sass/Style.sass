@@ -1,4 +1,4 @@
-.color_body
+.body
     background-color: #212529
 
 .performance
@@ -60,31 +60,32 @@
     width: 54px
     height: 56px
 
-.resalt
-    position: relative
-    max-width: 1200px
-    margin: 0 auto
+.resalt_container
+    display: flex
+    flex-direction: column
+
+.resault_text-rotate
+    display: inline-flex
+    align-content: space-between
 
 .slider
-
-    border: 2px solid black
-    max-width: 100%
-    max-height: 60%
-    margin: 0 auto
     overflow: hidden
     &__line
         display: flex
         transition: all ease 1s
 
+.btn-flex
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+
 .resal_text
     color: #FA8072
-    float: right
     font-size: 25px
 
 .resal_text2
     margin-top: 30px
     color: white
-    float: left
     font-size: 17px
 
 .marafon

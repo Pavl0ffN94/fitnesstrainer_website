@@ -8,7 +8,7 @@ function init() {
   sliderLine.style.width = width * image.length + "px";
   image.forEach((item) => {
     item.style.width = width + "px";
-    item.style.heiht = "60%";
+    item.style.heiht = "auto";
   });
 }
 window.addEventListener("resize", init);

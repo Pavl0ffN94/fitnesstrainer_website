@@ -20,7 +20,7 @@
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
-            ><img class="logo-navbar" src="/img/LogoFT.svg" alt=""
+            ><img class="logo-navbar" src="/img/LogoFT.svg" alt="logo fit"
           /></a>
           <button
             class="navbar-toggler"
@@ -36,16 +36,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="navbar-nav me-5">
-                <a class="nav-link" href="#">Обо мне</a>
+                <a class="nav-link" href="#about_me">Обо мне</a>
               </li>
               <li class="nav-item me-5">
-                <a class="nav-link" href="#">Отзывы</a>
+                <a class="nav-link" href="#resalt">Отзывы</a>
               </li>
               <li class="nav-item me-5">
-                <a class="nav-link" href="#">План марафона</a>
+                <a class="nav-link" href="#marafon">План марафона</a>
               </li>
               <li class="nav-item me-5">
-                <a class="nav-link" href="#">Связь со мной</a>
+                <a class="nav-link" href="#contacts">Связь со мной</a>
               </li>
             </ul>
           </div>
@@ -59,7 +59,7 @@
         Под руководством персонального фитнес тренера
       </h2>
     </section>
-    <section class="whoAmI">
+    <section id="about_me" class="whoAmI">
       <h2 class="whoAmI_text">Кто я и чем могу тебе помочь?</h2>
 
       <div class="container">
@@ -99,7 +99,7 @@
         </div>
       </div>
     </section>
-    <section class="resalt">
+    <section id="resalt" class="resalt">
       <div class="resalt_container">
         <div class="resault_text-rotate">
           <h1 class="resal_text">
@@ -111,18 +111,19 @@
         </div>
         <div class="slider">
           <div class="slider__line">
-            <img src="/img/carusel_1.jpg" alt="" />
-            <img src="/img/carusel_2.jpg" alt="" />
-            <img src="/img/corusel_3.jpg" alt="" />
+            <img src="/img/carusel_1.jpg" alt="resal fit" />
+            <img src="/img/carusel_2.jpg" alt="resal fit" />
+            <img src="/img/carusel_3.jpg" alt="resal fit" />
+            <img src="/img/carusel_4.jpg" alt="resal fit" />
           </div>
           <div class="btn-flex">
-            <button class="button slider-prev">prev</button>
-            <button class="button slider-next">next</button>
+            <button class="button slider-prev btn">prev</button>
+            <button class="button slider-next btn">next</button>
           </div>
         </div>
       </div>
     </section>
-    <section class="marafon">
+    <section id="marafon" class="marafon">
       <figure class="text-center">
         <blockquote class="blockquote">
           <p class="marafon_text">Программа марафона “Будь уверенна в себе":</p>
@@ -130,7 +131,7 @@
       </figure>
       <div class="container">
         <div class="row">
-          <div class="card-1 col-8 col-xl-4">
+          <div class="card-1 col-10 col-lg-4 col-xl-4">
             <div class="card-body marafon_card1">
               <p class="card-text">
                 Вы получите минус 5-6 кг за месяц <br />
@@ -143,10 +144,10 @@
               </p>
             </div>
           </div>
-          <div class="card-2 col-4 col-xl-4 mv-100%">
+          <div class="card-2 col-lg-4 col-xl-4">
             <div class="card-body marafon_img"></div>
           </div>
-          <div class="card-3 col-8 col-xl-4">
+          <div class="card-3 col-10 col-lg-4 col-xl-4">
             <div class="card-body marafon_card3">
               <p class="card-text">
                 Преимущества моего курса: <br />
@@ -162,9 +163,13 @@
         </div>
       </div>
     </section>
-    <section class="contacts">
+    <section id="contacts" class="contacts">
       <h1 class="contacts_text1">Свяжись со мной <br /></h1>
-      <h2 class="contacts_text2">и открой новую себя уже сегодня.</h2>
+      <h2 class="contacts_text2">
+        наставник для тренеров ,как выйти на сто <br />
+        наставник для женщин <br />
+        и открой новую себя уже сегодня.
+      </h2>
       <div class="contacts_content">
         <div class="left_contacts">
           <p class="contacts_text2">
@@ -194,14 +199,18 @@
           </div>
         </div>
         <div class="right_contacts">
-          <form action="" class="form" id="add-form">
+          <form action="mail.php" method="POST" class="form" id="add-form">
             <input
               type="text"
+              id=""
+              name="user_name"
               class="input-fluid block"
               placeholder="Ваше Имя"
             />
             <input
               type="text"
+              id=""
+              name="user_phone"
               class="input-fluid block"
               placeholder="Ваш телефон"
             />
@@ -210,7 +219,7 @@
         </div>
       </div>
     </section>
-    <script src="/JS/corusel.mjs"></script>
+    <script src="/JS/script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"

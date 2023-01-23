@@ -1,15 +1,14 @@
 const image = document.querySelectorAll(".slider .slider__line img");
 const sliderLine = document.querySelector(".slider__line");
 let count = 0;
-let width;
+let width = 0;
 
 function init() {
-  console.log("resize");
   width = document.querySelector(".slider").offsetWidth;
   sliderLine.style.width = width * image.length + "px";
   image.forEach((item) => {
     item.style.width = width + "px";
-    item.style.heiht = "auto";
+    item.style.heiht = "60%";
   });
 }
 window.addEventListener("resize", init);

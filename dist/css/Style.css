@@ -231,8 +231,45 @@
   color: #FA8072;
 }
 
-.send-btn {
+.form {
+  max-width: 150px;
+  margin: 0 auto;
+  outline: none;
+}
+.form__lable {
+  color: white;
+  display: block;
+  font-size: 15px;
+}
+.form__imput {
+  border-radius: 30px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+.form__imput_error {
+  box-shadow: 0 0 15px red;
+}
+.form__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
   background-color: #FA8072;
+  border-radius: 25px;
+  margin-bottom: 60px;
+  cursor: pointer;
+  box-shadow: 0 5px 0 #161b13;
+  transition: background-color 0.5s esea 0s;
+  position: relative;
+  top: 0;
+}
+.form__button:hover {
+  background-color: #bb6359;
+}
+.form__button:active {
+  top: 3px;
+  box-shadow: 0 2px 0 #161b13;
 }
 
 @media (max-width: 991px) {

@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/Style.css" />
+    <link rel="shortcut icon" href="/img/hamer.svg" type="image/x-icon" />
     <title>Персоональный тренер</title>
   </head>
   <body class="body">
@@ -20,7 +21,7 @@
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
-            ><img class="logo-navbar" src="/img/LogoFT.svg" alt="logo fit"
+            ><img class="logo-navbar" src="/img/traini.svg" alt="logo fit"
           /></a>
           <button
             class="navbar-toggler"
@@ -115,6 +116,7 @@
             <img src="/img/carusel_2.jpg" alt="resal fit" />
             <img src="/img/carusel_3.jpg" alt="resal fit" />
             <img src="/img/carusel_4.jpg" alt="resal fit" />
+            <img src="/img/carusel_5.jpg" alt="resal fit" />
           </div>
           <div class="btn-flex">
             <button class="button slider-prev btn">преведущая</button>
@@ -163,12 +165,13 @@
         </div>
       </div>
     </section>
-    <section id="contacts" class="contacts">
+
+    <footer id="contacts" class="contacts">
       <h1 class="contacts_text1">Свяжись со мной <br /></h1>
       <h2 class="contacts_text2">
-        наставник для тренеров ,как выйти на сто <br />
+        наставник для тренеров <br />
         наставник для женщин <br />
-        и открой новую себя уже сегодня.
+        как выйти на сто <br />
       </h2>
       <div class="contacts_content">
         <div class="left_contacts">
@@ -180,7 +183,7 @@
             <div class="contacts__icon-box icon">
               <div class="icons__item tg">
                 <a href="https://t.me/AKffitnes"
-                  ><i class="fa-brands fa-telegram"></i
+                  ><i class="fa-brands fa-telegram"> </i
                 ></a>
               </div>
               <div class="icons__item vk">
@@ -200,18 +203,31 @@
         </div>
         <div class="right_contacts">
           <form class="form" id="form" name="form">
-            <input type="text" class="form-field" name="name" placeholder="Введите ваше имя">
-            <input type="text" class="form-field" name="phone" placeholder="Введите ваш телефон">
-            <button class="form-button"><span class="text-button">Отправить заявку</span></button>
+            <input
+              type="text"
+              class="form-field"
+              name="name"
+              placeholder="Введите ваше имя"
+            />
+            <input
+              type="text"
+              class="form-field"
+              name="phone"
+              placeholder="Введите ваш телефон"
+            />
+            <button class="form-button">
+              <span class="text-button">Отправить заявку</span>
+            </button>
           </form>
-            <div class="overlay js-overlay-thank-you">
-              <div class="popup js-thank-you">
-                <h2>Спасибо за заявку</h2>
-                <div class="close-popup js-close-thank-you"></div>
-              </div>
+          <div class="overlay js-overlay-thank-you">
+            <div class="popup js-thank-you">
+              <h2>Спасибо, я свяжусь с вами в ближайшее время</h2>
+              <div class="close-popup js-close-thank-you"></div>
             </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </footer>
     <script type="module" src="/JS/script.js"></script>
     <script type="module" src="/JS/main.js"></script>
     <script type="module" src="/JS/jquery.maskedinput.js"></script>

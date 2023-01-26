@@ -8,7 +8,7 @@ function init() {
   width = document.querySelector(".slider").offsetWidth;
   sliderLine.style.width = width * image.length + "px";
   image.forEach((item) => {
-    item.style.width = width + "px";
+    item.style.width = "auto";
     item.style.heiht = "auto";
   });
 }
